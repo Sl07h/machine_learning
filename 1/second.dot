@@ -1,0 +1,1388 @@
+digraph ID3_Tree {
+"0" [shape=box, style=filled, label="5
+", weight=1]
+"1" [shape=box, style=filled, label="1
+", weight=2]
+0 -> 1 [ label = "b"];
+"2" [shape=box, style=filled, label="9
+", weight=3]
+1 -> 2 [ label = "b"];
+"3" [shape=box, style=filled, label="positive
+(20/8)
+", weight=4]
+2 -> 3 [ label = "b"];
+"4" [shape=box, style=filled, label="negative
+(8)
+", weight=4]
+2 -> 4 [ label = "o"];
+"5" [shape=box, style=filled, label="positive
+(20)
+", weight=4]
+2 -> 5 [ label = "x"];
+"6" [shape=box, style=filled, label="9
+", weight=3]
+1 -> 6 [ label = "o"];
+"7" [shape=box, style=filled, label="negative
+(8)
+", weight=4]
+6 -> 7 [ label = "b"];
+"8" [shape=box, style=filled, label="negative
+(4)
+", weight=4]
+6 -> 8 [ label = "o"];
+"9" [shape=box, style=filled, label="3
+", weight=4]
+6 -> 9 [ label = "x"];
+"10" [shape=box, style=filled, label="7
+", weight=5]
+9 -> 10 [ label = "b"];
+"11" [shape=box, style=filled, label="positive
+(6/3)
+", weight=6]
+10 -> 11 [ label = "b"];
+"12" [shape=box, style=filled, label="negative
+(3)
+", weight=6]
+10 -> 12 [ label = "o"];
+"13" [shape=box, style=filled, label="positive
+(6)
+", weight=6]
+10 -> 13 [ label = "x"];
+"14" [shape=box, style=filled, label="2
+", weight=5]
+9 -> 14 [ label = "o"];
+"15" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+14 -> 15 [ label = "b"];
+"16" [shape=box, style=filled, label="negative
+(7)
+", weight=6]
+14 -> 16 [ label = "o"];
+"17" [shape=box, style=filled, label="6
+", weight=6]
+14 -> 17 [ label = "x"];
+"18" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+17 -> 18 [ label = "b"];
+"19" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+17 -> 19 [ label = "o"];
+"20" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+17 -> 20 [ label = "x"];
+"21" [shape=box, style=filled, label="6
+", weight=5]
+9 -> 21 [ label = "x"];
+"22" [shape=box, style=filled, label="2
+", weight=6]
+21 -> 22 [ label = "b"];
+"23" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+22 -> 23 [ label = "b"];
+"24" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+22 -> 24 [ label = "o"];
+"25" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+22 -> 25 [ label = "x"];
+"26" [shape=box, style=filled, label="2
+", weight=6]
+21 -> 26 [ label = "o"];
+"27" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+26 -> 27 [ label = "b"];
+"28" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+26 -> 28 [ label = "o"];
+"29" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+26 -> 29 [ label = "x"];
+"30" [shape=box, style=filled, label="positive
+(14)
+", weight=6]
+21 -> 30 [ label = "x"];
+"31" [shape=box, style=filled, label="9
+", weight=3]
+1 -> 31 [ label = "x"];
+"32" [shape=box, style=filled, label="positive
+(20)
+", weight=4]
+31 -> 32 [ label = "b"];
+"33" [shape=box, style=filled, label="3
+", weight=4]
+31 -> 33 [ label = "o"];
+"34" [shape=box, style=filled, label="7
+", weight=5]
+33 -> 34 [ label = "b"];
+"35" [shape=box, style=filled, label="positive
+(6/3)
+", weight=6]
+34 -> 35 [ label = "b"];
+"36" [shape=box, style=filled, label="negative
+(3)
+", weight=6]
+34 -> 36 [ label = "o"];
+"37" [shape=box, style=filled, label="positive
+(6)
+", weight=6]
+34 -> 37 [ label = "x"];
+"38" [shape=box, style=filled, label="6
+", weight=5]
+33 -> 38 [ label = "o"];
+"39" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+38 -> 39 [ label = "b"];
+"40" [shape=box, style=filled, label="negative
+(7)
+", weight=6]
+38 -> 40 [ label = "o"];
+"41" [shape=box, style=filled, label="2
+", weight=6]
+38 -> 41 [ label = "x"];
+"42" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+41 -> 42 [ label = "b"];
+"43" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+41 -> 43 [ label = "o"];
+"44" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+41 -> 44 [ label = "x"];
+"45" [shape=box, style=filled, label="2
+", weight=5]
+33 -> 45 [ label = "x"];
+"46" [shape=box, style=filled, label="6
+", weight=6]
+45 -> 46 [ label = "b"];
+"47" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+46 -> 47 [ label = "b"];
+"48" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+46 -> 48 [ label = "o"];
+"49" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+46 -> 49 [ label = "x"];
+"50" [shape=box, style=filled, label="6
+", weight=6]
+45 -> 50 [ label = "o"];
+"51" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+50 -> 51 [ label = "b"];
+"52" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+50 -> 52 [ label = "o"];
+"53" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+50 -> 53 [ label = "x"];
+"54" [shape=box, style=filled, label="positive
+(14)
+", weight=6]
+45 -> 54 [ label = "x"];
+"55" [shape=box, style=filled, label="positive
+(16)
+", weight=4]
+31 -> 55 [ label = "x"];
+"56" [shape=box, style=filled, label="1
+", weight=2]
+0 -> 56 [ label = "o"];
+"57" [shape=box, style=filled, label="9
+", weight=3]
+56 -> 57 [ label = "b"];
+"58" [shape=box, style=filled, label="negative
+(12)
+", weight=4]
+57 -> 58 [ label = "b"];
+"59" [shape=box, style=filled, label="negative
+(5)
+", weight=4]
+57 -> 59 [ label = "o"];
+"60" [shape=box, style=filled, label="2
+", weight=4]
+57 -> 60 [ label = "x"];
+"61" [shape=box, style=filled, label="8
+", weight=5]
+60 -> 61 [ label = "b"];
+"62" [shape=box, style=filled, label="4
+", weight=6]
+61 -> 62 [ label = "b"];
+"63" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+62 -> 63 [ label = "b"];
+"64" [shape=box, style=filled, label="6
+", weight=7]
+62 -> 64 [ label = "o"];
+"65" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+64 -> 65 [ label = "b"];
+"66" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+64 -> 66 [ label = "o"];
+"67" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+64 -> 67 [ label = "x"];
+"68" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+62 -> 68 [ label = "x"];
+"69" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+61 -> 69 [ label = "o"];
+"70" [shape=box, style=filled, label="7
+", weight=6]
+61 -> 70 [ label = "x"];
+"71" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+70 -> 71 [ label = "b"];
+"72" [shape=box, style=filled, label="3
+", weight=7]
+70 -> 72 [ label = "o"];
+"73" [shape=box, style=filled, label="negative
+(2/1)
+", weight=8]
+72 -> 73 [ label = "b"];
+"74" [shape=box, style=filled, label="negative
+(2)
+", weight=8]
+72 -> 74 [ label = "o"];
+"75" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+72 -> 75 [ label = "x"];
+"76" [shape=box, style=filled, label="positive
+(5)
+", weight=7]
+70 -> 76 [ label = "x"];
+"77" [shape=box, style=filled, label="8
+", weight=5]
+60 -> 77 [ label = "o"];
+"78" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+77 -> 78 [ label = "b"];
+"79" [shape=box, style=filled, label="negative
+(7)
+", weight=6]
+77 -> 79 [ label = "o"];
+"80" [shape=box, style=filled, label="7
+", weight=6]
+77 -> 80 [ label = "x"];
+"81" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+80 -> 81 [ label = "b"];
+"82" [shape=box, style=filled, label="3
+", weight=7]
+80 -> 82 [ label = "o"];
+"83" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+82 -> 83 [ label = "b"];
+"84" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+82 -> 84 [ label = "o"];
+"85" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+82 -> 85 [ label = "x"];
+"86" [shape=box, style=filled, label="positive
+(7)
+", weight=7]
+80 -> 86 [ label = "x"];
+"87" [shape=box, style=filled, label="4
+", weight=5]
+60 -> 87 [ label = "x"];
+"88" [shape=box, style=filled, label="6
+", weight=6]
+87 -> 88 [ label = "b"];
+"89" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+88 -> 89 [ label = "b"];
+"90" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+88 -> 90 [ label = "o"];
+"91" [shape=box, style=filled, label="3
+", weight=7]
+88 -> 91 [ label = "x"];
+"92" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+91 -> 92 [ label = "b"];
+"93" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+91 -> 93 [ label = "o"];
+"94" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+91 -> 94 [ label = "x"];
+"95" [shape=box, style=filled, label="6
+", weight=6]
+87 -> 95 [ label = "o"];
+"96" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+95 -> 96 [ label = "b"];
+"97" [shape=box, style=filled, label="negative
+(5)
+", weight=7]
+95 -> 97 [ label = "o"];
+"98" [shape=box, style=filled, label="3
+", weight=7]
+95 -> 98 [ label = "x"];
+"99" [shape=box, style=filled, label="positive
+(2/1)
+", weight=8]
+98 -> 99 [ label = "b"];
+"100" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+98 -> 100 [ label = "o"];
+"101" [shape=box, style=filled, label="positive
+(2)
+", weight=8]
+98 -> 101 [ label = "x"];
+"102" [shape=box, style=filled, label="negative
+(3)
+", weight=6]
+87 -> 102 [ label = "x"];
+"103" [shape=box, style=filled, label="9
+", weight=3]
+56 -> 103 [ label = "o"];
+"104" [shape=box, style=filled, label="negative
+(5)
+", weight=4]
+103 -> 104 [ label = "b"];
+"105" [shape=box, style=filled, label="negative
+(50)
+", weight=4]
+103 -> 105 [ label = "o"];
+"106" [shape=box, style=filled, label="2
+", weight=4]
+103 -> 106 [ label = "x"];
+"107" [shape=box, style=filled, label="3
+", weight=5]
+106 -> 107 [ label = "b"];
+"108" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+107 -> 108 [ label = "b"];
+"109" [shape=box, style=filled, label="7
+", weight=6]
+107 -> 109 [ label = "o"];
+"110" [shape=box, style=filled, label="positive
+(2/1)
+", weight=7]
+109 -> 110 [ label = "b"];
+"111" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+109 -> 111 [ label = "o"];
+"112" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+109 -> 112 [ label = "x"];
+"113" [shape=box, style=filled, label="positive
+(9)
+", weight=6]
+107 -> 113 [ label = "x"];
+"114" [shape=box, style=filled, label="3
+", weight=5]
+106 -> 114 [ label = "o"];
+"115" [shape=box, style=filled, label="8
+", weight=6]
+114 -> 115 [ label = "b"];
+"116" [shape=box, style=filled, label="positive
+(2/1)
+", weight=7]
+115 -> 116 [ label = "b"];
+"117" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+115 -> 117 [ label = "o"];
+"118" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+115 -> 118 [ label = "x"];
+"119" [shape=box, style=filled, label="negative
+(2)
+", weight=6]
+114 -> 119 [ label = "o"];
+"120" [shape=box, style=filled, label="8
+", weight=6]
+114 -> 120 [ label = "x"];
+"121" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+120 -> 121 [ label = "b"];
+"122" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+120 -> 122 [ label = "o"];
+"123" [shape=box, style=filled, label="positive
+(5)
+", weight=7]
+120 -> 123 [ label = "x"];
+"124" [shape=box, style=filled, label="7
+", weight=5]
+106 -> 124 [ label = "x"];
+"125" [shape=box, style=filled, label="6
+", weight=6]
+124 -> 125 [ label = "b"];
+"126" [shape=box, style=filled, label="positive
+(2/1)
+", weight=7]
+125 -> 126 [ label = "b"];
+"127" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+125 -> 127 [ label = "o"];
+"128" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+125 -> 128 [ label = "x"];
+"129" [shape=box, style=filled, label="8
+", weight=6]
+124 -> 129 [ label = "o"];
+"130" [shape=box, style=filled, label="3
+", weight=7]
+129 -> 130 [ label = "b"];
+"131" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+130 -> 131 [ label = "b"];
+"132" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+130 -> 132 [ label = "o"];
+"133" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+130 -> 133 [ label = "x"];
+"134" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+129 -> 134 [ label = "o"];
+"135" [shape=box, style=filled, label="negative
+(5)
+", weight=7]
+129 -> 135 [ label = "x"];
+"136" [shape=box, style=filled, label="8
+", weight=6]
+124 -> 136 [ label = "x"];
+"137" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+136 -> 137 [ label = "b"];
+"138" [shape=box, style=filled, label="4
+", weight=7]
+136 -> 138 [ label = "o"];
+"139" [shape=box, style=filled, label="negative
+(2/1)
+", weight=8]
+138 -> 139 [ label = "b"];
+"140" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+138 -> 140 [ label = "o"];
+"141" [shape=box, style=filled, label="negative
+(2)
+", weight=8]
+138 -> 141 [ label = "x"];
+"142" [shape=box, style=filled, label="positive
+(5)
+", weight=7]
+136 -> 142 [ label = "x"];
+"143" [shape=box, style=filled, label="3
+", weight=3]
+56 -> 143 [ label = "x"];
+"144" [shape=box, style=filled, label="4
+", weight=4]
+143 -> 144 [ label = "b"];
+"145" [shape=box, style=filled, label="6
+", weight=5]
+144 -> 145 [ label = "b"];
+"146" [shape=box, style=filled, label="negative
+(1)
+", weight=6]
+145 -> 146 [ label = "b"];
+"147" [shape=box, style=filled, label="positive
+(1)
+", weight=6]
+145 -> 147 [ label = "o"];
+"148" [shape=box, style=filled, label="negative
+(2)
+", weight=6]
+145 -> 148 [ label = "x"];
+"149" [shape=box, style=filled, label="6
+", weight=5]
+144 -> 149 [ label = "o"];
+"150" [shape=box, style=filled, label="positive
+(1)
+", weight=6]
+149 -> 150 [ label = "b"];
+"151" [shape=box, style=filled, label="negative
+(9)
+", weight=6]
+149 -> 151 [ label = "o"];
+"152" [shape=box, style=filled, label="negative
+(1)
+", weight=6]
+149 -> 152 [ label = "x"];
+"153" [shape=box, style=filled, label="7
+", weight=5]
+144 -> 153 [ label = "x"];
+"154" [shape=box, style=filled, label="negative
+(2)
+", weight=6]
+153 -> 154 [ label = "b"];
+"155" [shape=box, style=filled, label="negative
+(2)
+", weight=6]
+153 -> 155 [ label = "o"];
+"156" [shape=box, style=filled, label="positive
+(14)
+", weight=6]
+153 -> 156 [ label = "x"];
+"157" [shape=box, style=filled, label="7
+", weight=4]
+143 -> 157 [ label = "o"];
+"158" [shape=box, style=filled, label="negative
+(3)
+", weight=5]
+157 -> 158 [ label = "b"];
+"159" [shape=box, style=filled, label="negative
+(30)
+", weight=5]
+157 -> 159 [ label = "o"];
+"160" [shape=box, style=filled, label="4
+", weight=5]
+157 -> 160 [ label = "x"];
+"161" [shape=box, style=filled, label="2
+", weight=6]
+160 -> 161 [ label = "b"];
+"162" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+161 -> 162 [ label = "b"];
+"163" [shape=box, style=filled, label="6
+", weight=7]
+161 -> 163 [ label = "o"];
+"164" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+163 -> 164 [ label = "b"];
+"165" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+163 -> 165 [ label = "o"];
+"166" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+163 -> 166 [ label = "x"];
+"167" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+161 -> 167 [ label = "x"];
+"168" [shape=box, style=filled, label="2
+", weight=6]
+160 -> 168 [ label = "o"];
+"169" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+168 -> 169 [ label = "b"];
+"170" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+168 -> 170 [ label = "o"];
+"171" [shape=box, style=filled, label="negative
+(4)
+", weight=7]
+168 -> 171 [ label = "x"];
+"172" [shape=box, style=filled, label="positive
+(17)
+", weight=6]
+160 -> 172 [ label = "x"];
+"173" [shape=box, style=filled, label="2
+", weight=4]
+143 -> 173 [ label = "x"];
+"174" [shape=box, style=filled, label="8
+", weight=5]
+173 -> 174 [ label = "b"];
+"175" [shape=box, style=filled, label="7
+", weight=6]
+174 -> 175 [ label = "b"];
+"176" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+175 -> 176 [ label = "b"];
+"177" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+175 -> 177 [ label = "o"];
+"178" [shape=box, style=filled, label="4
+", weight=7]
+175 -> 178 [ label = "x"];
+"179" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+178 -> 179 [ label = "b"];
+"180" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+178 -> 180 [ label = "o"];
+"181" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+178 -> 181 [ label = "x"];
+"182" [shape=box, style=filled, label="4
+", weight=6]
+174 -> 182 [ label = "o"];
+"183" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+182 -> 183 [ label = "b"];
+"184" [shape=box, style=filled, label="6
+", weight=7]
+182 -> 184 [ label = "o"];
+"185" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+184 -> 185 [ label = "b"];
+"186" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+184 -> 186 [ label = "o"];
+"187" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+184 -> 187 [ label = "x"];
+"188" [shape=box, style=filled, label="6
+", weight=7]
+182 -> 188 [ label = "x"];
+"189" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+188 -> 189 [ label = "b"];
+"190" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+188 -> 190 [ label = "o"];
+"191" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+188 -> 191 [ label = "x"];
+"192" [shape=box, style=filled, label="negative
+(3)
+", weight=6]
+174 -> 192 [ label = "x"];
+"193" [shape=box, style=filled, label="8
+", weight=5]
+173 -> 193 [ label = "o"];
+"194" [shape=box, style=filled, label="4
+", weight=6]
+193 -> 194 [ label = "b"];
+"195" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+194 -> 195 [ label = "b"];
+"196" [shape=box, style=filled, label="6
+", weight=7]
+194 -> 196 [ label = "o"];
+"197" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+196 -> 197 [ label = "b"];
+"198" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+196 -> 198 [ label = "o"];
+"199" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+196 -> 199 [ label = "x"];
+"200" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+194 -> 200 [ label = "x"];
+"201" [shape=box, style=filled, label="negative
+(12)
+", weight=6]
+193 -> 201 [ label = "o"];
+"202" [shape=box, style=filled, label="7
+", weight=6]
+193 -> 202 [ label = "x"];
+"203" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+202 -> 203 [ label = "b"];
+"204" [shape=box, style=filled, label="4
+", weight=7]
+202 -> 204 [ label = "o"];
+"205" [shape=box, style=filled, label="negative
+(2/1)
+", weight=8]
+204 -> 205 [ label = "b"];
+"206" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+204 -> 206 [ label = "o"];
+"207" [shape=box, style=filled, label="negative
+(2)
+", weight=8]
+204 -> 207 [ label = "x"];
+"208" [shape=box, style=filled, label="4
+", weight=7]
+202 -> 208 [ label = "x"];
+"209" [shape=box, style=filled, label="negative
+(2/1)
+", weight=8]
+208 -> 209 [ label = "b"];
+"210" [shape=box, style=filled, label="negative
+(2)
+", weight=8]
+208 -> 210 [ label = "o"];
+"211" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+208 -> 211 [ label = "x"];
+"212" [shape=box, style=filled, label="positive
+(38)
+", weight=5]
+173 -> 212 [ label = "x"];
+"213" [shape=box, style=filled, label="1
+", weight=2]
+0 -> 213 [ label = "x"];
+"214" [shape=box, style=filled, label="9
+", weight=3]
+213 -> 214 [ label = "b"];
+"215" [shape=box, style=filled, label="positive
+(30)
+", weight=4]
+214 -> 215 [ label = "b"];
+"216" [shape=box, style=filled, label="6
+", weight=4]
+214 -> 216 [ label = "o"];
+"217" [shape=box, style=filled, label="7
+", weight=5]
+216 -> 217 [ label = "b"];
+"218" [shape=box, style=filled, label="positive
+(2)
+", weight=6]
+217 -> 218 [ label = "b"];
+"219" [shape=box, style=filled, label="8
+", weight=6]
+217 -> 219 [ label = "o"];
+"220" [shape=box, style=filled, label="negative
+(3/3)
+", weight=7]
+219 -> 220 [ label = "b"];
+"221" [shape=box, style=filled, label="negative
+(3)
+", weight=7]
+219 -> 221 [ label = "o"];
+"222" [shape=box, style=filled, label="positive
+(3)
+", weight=7]
+219 -> 222 [ label = "x"];
+"223" [shape=box, style=filled, label="positive
+(7)
+", weight=6]
+217 -> 223 [ label = "x"];
+"224" [shape=box, style=filled, label="3
+", weight=5]
+216 -> 224 [ label = "o"];
+"225" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+224 -> 225 [ label = "b"];
+"226" [shape=box, style=filled, label="negative
+(7)
+", weight=6]
+224 -> 226 [ label = "o"];
+"227" [shape=box, style=filled, label="7
+", weight=6]
+224 -> 227 [ label = "x"];
+"228" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+227 -> 228 [ label = "b"];
+"229" [shape=box, style=filled, label="4
+", weight=7]
+227 -> 229 [ label = "o"];
+"230" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+229 -> 230 [ label = "b"];
+"231" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+229 -> 231 [ label = "o"];
+"232" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+229 -> 232 [ label = "x"];
+"233" [shape=box, style=filled, label="positive
+(7)
+", weight=7]
+227 -> 233 [ label = "x"];
+"234" [shape=box, style=filled, label="4
+", weight=5]
+216 -> 234 [ label = "x"];
+"235" [shape=box, style=filled, label="2
+", weight=6]
+234 -> 235 [ label = "b"];
+"236" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+235 -> 236 [ label = "b"];
+"237" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+235 -> 237 [ label = "o"];
+"238" [shape=box, style=filled, label="3
+", weight=7]
+235 -> 238 [ label = "x"];
+"239" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+238 -> 239 [ label = "b"];
+"240" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+238 -> 240 [ label = "o"];
+"241" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+238 -> 241 [ label = "x"];
+"242" [shape=box, style=filled, label="7
+", weight=6]
+234 -> 242 [ label = "o"];
+"243" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+242 -> 243 [ label = "b"];
+"244" [shape=box, style=filled, label="3
+", weight=7]
+242 -> 244 [ label = "o"];
+"245" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+244 -> 245 [ label = "b"];
+"246" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+244 -> 246 [ label = "o"];
+"247" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+244 -> 247 [ label = "x"];
+"248" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+242 -> 248 [ label = "x"];
+"249" [shape=box, style=filled, label="positive
+(14)
+", weight=6]
+234 -> 249 [ label = "x"];
+"250" [shape=box, style=filled, label="positive
+(20)
+", weight=4]
+214 -> 250 [ label = "x"];
+"251" [shape=box, style=filled, label="9
+", weight=3]
+213 -> 251 [ label = "o"];
+"252" [shape=box, style=filled, label="2
+", weight=4]
+251 -> 252 [ label = "b"];
+"253" [shape=box, style=filled, label="4
+", weight=5]
+252 -> 253 [ label = "b"];
+"254" [shape=box, style=filled, label="positive
+(2)
+", weight=6]
+253 -> 254 [ label = "b"];
+"255" [shape=box, style=filled, label="7
+", weight=6]
+253 -> 255 [ label = "o"];
+"256" [shape=box, style=filled, label="negative
+(3/3)
+", weight=7]
+255 -> 256 [ label = "b"];
+"257" [shape=box, style=filled, label="negative
+(3)
+", weight=7]
+255 -> 257 [ label = "o"];
+"258" [shape=box, style=filled, label="positive
+(3)
+", weight=7]
+255 -> 258 [ label = "x"];
+"259" [shape=box, style=filled, label="positive
+(7)
+", weight=6]
+253 -> 259 [ label = "x"];
+"260" [shape=box, style=filled, label="3
+", weight=5]
+252 -> 260 [ label = "o"];
+"261" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+260 -> 261 [ label = "b"];
+"262" [shape=box, style=filled, label="negative
+(7)
+", weight=6]
+260 -> 262 [ label = "o"];
+"263" [shape=box, style=filled, label="7
+", weight=6]
+260 -> 263 [ label = "x"];
+"264" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+263 -> 264 [ label = "b"];
+"265" [shape=box, style=filled, label="4
+", weight=7]
+263 -> 265 [ label = "o"];
+"266" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+265 -> 266 [ label = "b"];
+"267" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+265 -> 267 [ label = "o"];
+"268" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+265 -> 268 [ label = "x"];
+"269" [shape=box, style=filled, label="positive
+(7)
+", weight=7]
+263 -> 269 [ label = "x"];
+"270" [shape=box, style=filled, label="8
+", weight=5]
+252 -> 270 [ label = "x"];
+"271" [shape=box, style=filled, label="3
+", weight=6]
+270 -> 271 [ label = "b"];
+"272" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+271 -> 272 [ label = "b"];
+"273" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+271 -> 273 [ label = "o"];
+"274" [shape=box, style=filled, label="6
+", weight=7]
+271 -> 274 [ label = "x"];
+"275" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+274 -> 275 [ label = "b"];
+"276" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+274 -> 276 [ label = "o"];
+"277" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+274 -> 277 [ label = "x"];
+"278" [shape=box, style=filled, label="4
+", weight=6]
+270 -> 278 [ label = "o"];
+"279" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+278 -> 279 [ label = "b"];
+"280" [shape=box, style=filled, label="6
+", weight=7]
+278 -> 280 [ label = "o"];
+"281" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+280 -> 281 [ label = "b"];
+"282" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+280 -> 282 [ label = "o"];
+"283" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+280 -> 283 [ label = "x"];
+"284" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+278 -> 284 [ label = "x"];
+"285" [shape=box, style=filled, label="positive
+(14)
+", weight=6]
+270 -> 285 [ label = "x"];
+"286" [shape=box, style=filled, label="3
+", weight=4]
+251 -> 286 [ label = "o"];
+"287" [shape=box, style=filled, label="positive
+(14)
+", weight=5]
+286 -> 287 [ label = "b"];
+"288" [shape=box, style=filled, label="2
+", weight=5]
+286 -> 288 [ label = "o"];
+"289" [shape=box, style=filled, label="6
+", weight=6]
+288 -> 289 [ label = "b"];
+"290" [shape=box, style=filled, label="positive
+(2/1)
+", weight=7]
+289 -> 290 [ label = "b"];
+"291" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+289 -> 291 [ label = "o"];
+"292" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+289 -> 292 [ label = "x"];
+"293" [shape=box, style=filled, label="negative
+(2)
+", weight=6]
+288 -> 293 [ label = "o"];
+"294" [shape=box, style=filled, label="6
+", weight=6]
+288 -> 294 [ label = "x"];
+"295" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+294 -> 295 [ label = "b"];
+"296" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+294 -> 296 [ label = "o"];
+"297" [shape=box, style=filled, label="positive
+(5)
+", weight=7]
+294 -> 297 [ label = "x"];
+"298" [shape=box, style=filled, label="7
+", weight=5]
+286 -> 298 [ label = "x"];
+"299" [shape=box, style=filled, label="positive
+(4)
+", weight=6]
+298 -> 299 [ label = "b"];
+"300" [shape=box, style=filled, label="4
+", weight=6]
+298 -> 300 [ label = "o"];
+"301" [shape=box, style=filled, label="6
+", weight=7]
+300 -> 301 [ label = "b"];
+"302" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+301 -> 302 [ label = "b"];
+"303" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+301 -> 303 [ label = "o"];
+"304" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+301 -> 304 [ label = "x"];
+"305" [shape=box, style=filled, label="negative
+(2)
+", weight=7]
+300 -> 305 [ label = "o"];
+"306" [shape=box, style=filled, label="6
+", weight=7]
+300 -> 306 [ label = "x"];
+"307" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+306 -> 307 [ label = "b"];
+"308" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+306 -> 308 [ label = "o"];
+"309" [shape=box, style=filled, label="positive
+(2)
+", weight=8]
+306 -> 309 [ label = "x"];
+"310" [shape=box, style=filled, label="positive
+(19)
+", weight=6]
+298 -> 310 [ label = "x"];
+"311" [shape=box, style=filled, label="3
+", weight=4]
+251 -> 311 [ label = "x"];
+"312" [shape=box, style=filled, label="4
+", weight=5]
+311 -> 312 [ label = "b"];
+"313" [shape=box, style=filled, label="positive
+(2)
+", weight=6]
+312 -> 313 [ label = "b"];
+"314" [shape=box, style=filled, label="7
+", weight=6]
+312 -> 314 [ label = "o"];
+"315" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+314 -> 315 [ label = "b"];
+"316" [shape=box, style=filled, label="negative
+(5)
+", weight=7]
+314 -> 316 [ label = "o"];
+"317" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+314 -> 317 [ label = "x"];
+"318" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+312 -> 318 [ label = "x"];
+"319" [shape=box, style=filled, label="2
+", weight=5]
+311 -> 319 [ label = "o"];
+"320" [shape=box, style=filled, label="4
+", weight=6]
+319 -> 320 [ label = "b"];
+"321" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+320 -> 321 [ label = "b"];
+"322" [shape=box, style=filled, label="6
+", weight=7]
+320 -> 322 [ label = "o"];
+"323" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+322 -> 323 [ label = "b"];
+"324" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+322 -> 324 [ label = "o"];
+"325" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+322 -> 325 [ label = "x"];
+"326" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+320 -> 326 [ label = "x"];
+"327" [shape=box, style=filled, label="negative
+(12)
+", weight=6]
+319 -> 327 [ label = "o"];
+"328" [shape=box, style=filled, label="8
+", weight=6]
+319 -> 328 [ label = "x"];
+"329" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+328 -> 329 [ label = "b"];
+"330" [shape=box, style=filled, label="7
+", weight=7]
+328 -> 330 [ label = "o"];
+"331" [shape=box, style=filled, label="negative
+(2/1)
+", weight=8]
+330 -> 331 [ label = "b"];
+"332" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+330 -> 332 [ label = "o"];
+"333" [shape=box, style=filled, label="negative
+(2)
+", weight=8]
+330 -> 333 [ label = "x"];
+"334" [shape=box, style=filled, label="positive
+(5)
+", weight=7]
+328 -> 334 [ label = "x"];
+"335" [shape=box, style=filled, label="7
+", weight=5]
+311 -> 335 [ label = "x"];
+"336" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+335 -> 336 [ label = "b"];
+"337" [shape=box, style=filled, label="6
+", weight=6]
+335 -> 337 [ label = "o"];
+"338" [shape=box, style=filled, label="negative
+(3)
+", weight=7]
+337 -> 338 [ label = "b"];
+"339" [shape=box, style=filled, label="negative
+(4)
+", weight=7]
+337 -> 339 [ label = "o"];
+"340" [shape=box, style=filled, label="positive
+(3)
+", weight=7]
+337 -> 340 [ label = "x"];
+"341" [shape=box, style=filled, label="positive
+(10)
+", weight=6]
+335 -> 341 [ label = "x"];
+"342" [shape=box, style=filled, label="9
+", weight=3]
+213 -> 342 [ label = "x"];
+"343" [shape=box, style=filled, label="positive
+(20)
+", weight=4]
+342 -> 343 [ label = "b"];
+"344" [shape=box, style=filled, label="3
+", weight=4]
+342 -> 344 [ label = "o"];
+"345" [shape=box, style=filled, label="7
+", weight=5]
+344 -> 345 [ label = "b"];
+"346" [shape=box, style=filled, label="positive
+(2)
+", weight=6]
+345 -> 346 [ label = "b"];
+"347" [shape=box, style=filled, label="8
+", weight=6]
+345 -> 347 [ label = "o"];
+"348" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+347 -> 348 [ label = "b"];
+"349" [shape=box, style=filled, label="negative
+(5)
+", weight=7]
+347 -> 349 [ label = "o"];
+"350" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+347 -> 350 [ label = "x"];
+"351" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+345 -> 351 [ label = "x"];
+"352" [shape=box, style=filled, label="6
+", weight=5]
+344 -> 352 [ label = "o"];
+"353" [shape=box, style=filled, label="7
+", weight=6]
+352 -> 353 [ label = "b"];
+"354" [shape=box, style=filled, label="positive
+(1)
+", weight=7]
+353 -> 354 [ label = "b"];
+"355" [shape=box, style=filled, label="4
+", weight=7]
+353 -> 355 [ label = "o"];
+"356" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+355 -> 356 [ label = "b"];
+"357" [shape=box, style=filled, label="negative
+(1/1)
+", weight=8]
+355 -> 357 [ label = "o"];
+"358" [shape=box, style=filled, label="negative
+(1)
+", weight=8]
+355 -> 358 [ label = "x"];
+"359" [shape=box, style=filled, label="positive
+(2)
+", weight=7]
+353 -> 359 [ label = "x"];
+"360" [shape=box, style=filled, label="negative
+(12)
+", weight=6]
+352 -> 360 [ label = "o"];
+"361" [shape=box, style=filled, label="4
+", weight=6]
+352 -> 361 [ label = "x"];
+"362" [shape=box, style=filled, label="negative
+(1)
+", weight=7]
+361 -> 362 [ label = "b"];
+"363" [shape=box, style=filled, label="7
+", weight=7]
+361 -> 363 [ label = "o"];
+"364" [shape=box, style=filled, label="negative
+(2/1)
+", weight=8]
+363 -> 364 [ label = "b"];
+"365" [shape=box, style=filled, label="positive
+(1)
+", weight=8]
+363 -> 365 [ label = "o"];
+"366" [shape=box, style=filled, label="negative
+(2)
+", weight=8]
+363 -> 366 [ label = "x"];
+"367" [shape=box, style=filled, label="positive
+(5)
+", weight=7]
+361 -> 367 [ label = "x"];
+"368" [shape=box, style=filled, label="7
+", weight=5]
+344 -> 368 [ label = "x"];
+"369" [shape=box, style=filled, label="positive
+(3)
+", weight=6]
+368 -> 369 [ label = "b"];
+"370" [shape=box, style=filled, label="2
+", weight=6]
+368 -> 370 [ label = "o"];
+"371" [shape=box, style=filled, label="negative
+(3)
+", weight=7]
+370 -> 371 [ label = "b"];
+"372" [shape=box, style=filled, label="negative
+(4)
+", weight=7]
+370 -> 372 [ label = "o"];
+"373" [shape=box, style=filled, label="positive
+(3)
+", weight=7]
+370 -> 373 [ label = "x"];
+"374" [shape=box, style=filled, label="positive
+(10)
+", weight=6]
+368 -> 374 [ label = "x"];
+"375" [shape=box, style=filled, label="positive
+(90)
+", weight=4]
+342 -> 375 [ label = "x"];
+{rank=same; 0;};
+{rank=same; 1;56;213;};
+{rank=same; 2;6;31;57;103;143;214;251;342;};
+{rank=same; 3;4;5;7;8;9;32;33;55;58;59;60;104;105;106;144;157;173;215;216;250;252;286;311;343;344;375;};
+{rank=same; 10;14;21;34;38;45;61;77;87;107;114;124;145;149;153;158;159;160;174;193;212;217;224;234;253;260;270;287;288;298;312;319;335;345;352;368;};
+{rank=same; 11;12;13;15;16;17;22;26;30;35;36;37;39;40;41;46;50;54;62;69;70;78;79;80;88;95;102;108;109;113;115;119;120;125;129;136;146;147;148;150;151;152;154;155;156;161;168;172;175;182;192;194;201;202;218;219;223;225;226;227;235;242;249;254;255;259;261;262;263;271;278;285;289;293;294;299;300;310;313;314;318;320;327;328;336;337;341;346;347;351;353;360;361;369;370;374;};
+{rank=same; 18;19;20;23;24;25;27;28;29;42;43;44;47;48;49;51;52;53;63;64;68;71;72;76;81;82;86;89;90;91;96;97;98;110;111;112;116;117;118;121;122;123;126;127;128;130;134;135;137;138;142;162;163;167;169;170;171;176;177;178;183;184;188;195;196;200;203;204;208;220;221;222;228;229;233;236;237;238;243;244;248;256;257;258;264;265;269;272;273;274;279;280;284;290;291;292;295;296;297;301;305;306;315;316;317;321;322;326;329;330;334;338;339;340;348;349;350;354;355;359;362;363;367;371;372;373;};
+{rank=same; 65;66;67;73;74;75;83;84;85;92;93;94;99;100;101;131;132;133;139;140;141;164;165;166;179;180;181;185;186;187;189;190;191;197;198;199;205;206;207;209;210;211;230;231;232;239;240;241;245;246;247;266;267;268;275;276;277;281;282;283;302;303;304;307;308;309;323;324;325;331;332;333;356;357;358;364;365;366;};
+}
